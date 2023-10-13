@@ -281,7 +281,7 @@ footer {
   display: flex;
   align-items: center;
   padding: 10px 20px;
-  height: 10px;
+  height: 2rem;
 }
 
 .links-footer2 {
@@ -306,34 +306,4 @@ footer {
 
 .links-footer2 a:hover {
   color: white;
-}
-
-
-
-
-
-@media only screen and (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .logo {
-    margin-left: 0;
-    margin-bottom: 10px;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-  }
-
-}
-
-
-@media only screen and (max-width: 600px) {
-  .nav-links a {
-    font-size: 14px; 
-    padding: 15px; 
-  }
 }
